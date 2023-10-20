@@ -279,7 +279,74 @@
 
 
 
+// 4 ветка
+// let man = {
+//     name: "Adam",
+//     surname: "Adamov",
+//     age:25,
+//     rost: 1.81,
+//     ves: 80,
+//     login: "admin",
+//     password: "admin95",
+//     money: 10000,
+//     getIMT: function () {  return man.ves / (man.rost * man.rost);},
+//     imtResult: function (x) {
+//         if (x<=18) {
+//             return "Недостаточный вес";
+//         }else if(x<=25){
+//             return "Вес в норме";
+//         }else if(x<=29){
+//             return "Избыточный вес";
+//         }else if(x>29){
+//             return "Ожирение";
+//         }
+//     },
+//     givMoney:function (sum) {
+//         if (sum<=5000) {
+//             return `Хьаэца хьай ${sum}. Соьгахь диснаг х1ар ду:  ${man.money-sum}. Сих хьадалахь`
+//         }return "Делахь, сайгах дац са оццал ахч"
+//     },
+//     lotteryNum:555,
 
+// };
+
+
+
+
+
+
+// function lotteRondom(max,min){
+// return Math.floor (Math.random () * (max - min + 1)) + min;
+// } 
+// let lottery = lotteRondom(0,1000);
+
+// if (lottery===man.lotteryNum) {
+
+//     alert('поздравляем вы выиграли!')
+
+//     man.money = `1000.0000`; 
+    
+//     }else{
+//         console.log(`Вы проиграли, попробуйте еще раз,  номер ${lottery}`);
+//     }
+
+
+
+// man.live = {
+//     city: "Grozny",
+//     street: "Trosheva",
+//     house: 43,
+// };
+
+
+
+// let a = "admin95";
+
+// if(a===man.password){
+//     console.log(`Добро пожаловать, ${man.name}.  Ваш логин ${man.login}`);
+// }else{
+//     console.log(`Указанный пароль ${a} не верен. Попробуйте еще раз`);
+// }
 
 
 
