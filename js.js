@@ -94,3 +94,193 @@
 
 
 
+
+// let a = ['lorem',123, true, 'ipsum'];
+
+// a.pop();
+// a.shift();
+// console.log(a.length);
+// console.log(a);
+
+// let em = [];
+// em = ['lorem'];
+// em.unshift('add first','element');
+// em.push("dollar",true);
+
+// em.unshift(false,122)
+
+// em.shift();
+// em.pop();
+// em.pop();
+
+// console.log(em);
+
+// for (let i = 0; i <= 1000; i++) {
+//     console.log(i);
+    
+// }
+
+// let x = ['html','css','js','react'];
+
+// x.push(+prompt()); //+ если добавляешь числа
+// for (let i = 0; i < x.length; i++) {
+//     console.log(x[i]);
+    
+// }
+
+// let arr = [10,123,13,481,1931];// Вывести сумму элементов массива,
+
+// let sum = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//     sum +=arr[i];
+// }
+
+// console.log(sum); 
+
+//Вывести элементы вложенного массива, к примеру “js”, “css”, “mysql”.
+
+// let arr = ['frontend',['js','html', 'css'],'react',['node js', 'mysql'],'php'];
+
+// console.log(arr[1][0], arr[1][2],arr[3][1]);
+
+
+// let arr = ['frontend',['js','html', 'css'],'react',['node js', 'mysql'],'php'];
+ 
+
+// for (let i = 0; i < arr.length; i++) {
+//    if (typeof arr[i]==='object') {
+//     for (let j = 0; j < arr[i].length; j++) {
+//        console.log(arr[i][j]);
+        
+//     }
+//    }else{
+//     console.log(arr[i]);
+//    }
+    
+// }
+//forEach Вывести в консоль только нечетные числа
+// let ar = [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100];
+
+// ar.forEach(function (i) {
+//     if (i%2===1) {
+//         console.log(i);
+//     }
+// });
+//Вывести в консоль элементы у которых кол-во символов не больше 4-х
+// let arr = ['lorem ipsum',"javascript","php", "css","raect","git","html","mysql"];
+
+// arr.forEach(function (item,inx) {
+//   if (item.length<4) {
+//     console.log(item);
+//   }
+     
+// });
+
+
+//FILTER
+
+// Создайте новый массив в котором останутся только отрицательные элементы. 
+
+// let arr = [1, -3, 5, 6, -7, 8, 9, -11];
+
+// newArr = arr.filter(function (item,inx) {
+//     return item<0;
+// });
+
+// console.log(newArr);
+
+//Создать новый в котором будут только четные элементы этого массива.
+
+// let arr = [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100];
+
+// newArr = arr.filter(function (item) {
+//     return item%2===0;
+// });
+// console.log(newArr);
+
+//создать новый массив состоящий только из элементов у которых длина строки не равна 3-м. 
+
+// let arr = ['lorem ipsum',"javascript","php", "css","raect","git","html","mysql"];
+
+// newArr = arr.filter(function (i) {
+//     return i.length!=3;
+// });
+
+// console.log(newArr);
+
+//MAP
+
+//Cделайте из него массив состоящий из квадратов этих числе.
+
+// let arr = [5, 6, 7, 8, 9];
+
+// let newArr = arr.map( (item) => {
+//     return item*item;
+// });
+// console.log(newArr);
+
+//Создать новый массив элементами которого буду сумма свойств объекта. Должно получится [15, 42, 186]
+
+// let arr = [{a:10,b:5}, {a:20,b:22}, {a:131,b:55},];
+
+// let newArr = arr.map( (item) => {
+//     return item.a+item.b;
+// });
+
+// console.log(newArr);
+
+//Reduce Дан массив [-13, 0, 12, 1662, -0.32, -102, -2]. Посчитать сумму отрицательных элементов. (Нужно будет использовать filter и reduce)
+
+// let arr = [-13, 0, 12, 1662, -0.32, -102, -2];
+// let newArr =arr.filter((i)=>{
+//     return i<0;
+// })
+// let aa = newArr.reduce((s,elem)=>{
+//     return s+elem;
+// });
+// console.log(aa);
+
+//посчитать сумму свойств х всех объектов.
+// let arr = [{x:10, y:'lorem'},{x:21, y:'lorem'},{x:-17, y:'lorem'},{x:156, y:'lorem'}];
+
+// let newArr = arr.reduce((sum,item)=>{return sum+item.x},0);
+
+// console.log(newArr);
+//__________________________________________________________________________________________
+
+
+// let arr_1 = [101, 202, 303, 404, 505];
+
+// let arr_2 = [606, 707, 808, 909];
+
+// let superArr = [...arr_1,...arr_2];
+
+// let obj = {
+//     with:300,
+//     heigth:550,
+// };
+
+// let obj_2 = {...obj,area:() => {
+//     return obj.with+obj.heigth;
+// }};
+// console.log(obj_2.area());
+
+// function f(...rest) {
+//     let retsul = rest.reduce((sum,item) => {
+//         return sum+item;
+//     },0);
+//     return retsul
+// };
+
+// console.log(f(10,15,25,740,45,546,1566,));
+
+
+
+
+
+
+
+
+
+
